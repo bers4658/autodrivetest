@@ -29,7 +29,9 @@
           <option v-for="city in cities" :value="city.name" :key="city.id">{{ city.name }}</option>
         </select>
   
-        <button type="submit" class="bg-blue-500 text-white font-bold py-2 px-4 rounded-full">Отправить</button>
+        <button type="submit" class="bg-blue-500 text-white font-bold py-2 px-4 rounded-full">
+					Отправить
+				</button>
       </form>
       <div v-if="responsePopup" class="fixed inset-0 flex items-center justify-center">
         <div class="absolute inset-0 bg-black opacity-50"></div>
