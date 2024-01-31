@@ -35,7 +35,11 @@
         <div class="absolute inset-0 bg-black opacity-50"></div>
         <div class="relative bg-white p-4 rounded-md">
           <p>{{ responseMessage }}</p>
-          <button @click="closeResponsePopup" class="bg-blue-500 text-white font-bold py-2 px-4 rounded-full mt-4">Закрыть</button>
+			    <button 
+						@click="closeResponsePopup" 
+						class="bg-blue-500 text-white font-bold py-2 px-4 rounded-full mt-4"
+						>Закрыть
+					</button>
         </div>
       </div>
     </div>
